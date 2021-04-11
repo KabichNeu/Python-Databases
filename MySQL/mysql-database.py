@@ -38,7 +38,6 @@ if __name__ == "__main__":
     cursor.execute("SELECT * FROM projects")
     project_records = cursor.fetchall()
     print(project_records)
-`   
     cursor.execute("SELECT * FROM tasks")
     tasks_records = cursor.fetchall()
     print(tasks_records)
